@@ -1,0 +1,13 @@
+@import [style.Base, utilities,theme] from 'tailwindcss';
+
+.style.Base {
+  @import 'tailwindcss/base';
+  @import 'tailwindcss/utilities';
+  @normalize;
+
+}
+.theme {
+  body {
+    font-family: sans-serif;
+  }
+}
